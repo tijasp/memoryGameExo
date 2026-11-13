@@ -1,0 +1,36 @@
+:root {
+    --background-color: #232323;
+    --blue: #5782f9;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Ubuntu";
+    background-color: var(--background-color);
+}
+
+#start-button {
+    padding: 0.5rem 1rem;
+
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--blue);
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+#start-button:hover {
+    opacity: 0.7;
+}
